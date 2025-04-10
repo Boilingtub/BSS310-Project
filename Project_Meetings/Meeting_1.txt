@@ -1,16 +1,22 @@
-Agenda: 
-  1. What Parts in A to give to each to cover
+Agenda:
+  1. How it's gonna work
+      *explain LaTeX
+      *setup of LuaTex
+      *explain Github
+      *explain parts allocation
+    
+  2. What Parts in A to give to each to cover
       *section 1 : Problem statement
       *section 2 : Objectives and Operational Requirements
       *section 3 : Market Analysis
       *section 4 : Value Chain Design
 
-  2. Role allocation for Part B
+  3. Role allocation for Part B
       *Marketing Manager
       *Production Manager 
       *Logistics Manager 
   
-  3. Section 5 - Overall Project Plan
+  4. Section 5 - Overall Project Plan
       *Plan next meeting
 
 Notes:
@@ -31,6 +37,10 @@ Notes:
       min margin: 1cm
       spacing 1.0 or 1.5 
       font Arial, Times New Roman, Calibri
+
+      use \large for body text 
+      use \LARGE for headings
+      use \Large for sub headings
 
 Minutes: 
 

@@ -1,3 +1,3 @@
 #!/bin/sh
-pdflatex -output-directory=./output project_PartA.tex
-zathura ./output/project_PartA.pdf
+pdflatex -output-directory=./output Part_A.tex
+zathura ./output/Part_A.pdf

@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/VoidLinux) (preloaded format=pdflatex 2025.2.9)  7 APR 2025 11:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/VoidLinux) (preloaded format=pdflatex 2025.2.9)  10 APR 2025 19:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**project_PartA.tex
-(./project_PartA.tex
+**Part_A.tex
+(./Part_A.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-02-22>
 (/usr/share/texmf-dist/tex/latex/base/article.cls
@@ -47,6 +47,9 @@ File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 \Gin@req@height=\dimen141
 \Gin@req@width=\dimen142
 )
+(/usr/share/texmf-dist/tex/latex/psnfss/times.sty
+Package: times 2020/03/25 PSNFSS-v9.3 (SPQR) 
+)
 (/usr/share/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
 
@@ -69,13 +72,19 @@ Package: iftex 2022/02/03 v1.0f TeX engine tests
 \Gm@layoutvoffset=\dimen150
 \Gm@dimlist=\toks17
 )
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 1
+6.
+
+(/usr/share/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
 (/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count196
 \l__pdf_internal_box=\box51
 )
-(./output/project_PartA.aux)
-\openout1 = `project_PartA.aux'.
+(./output/Part_A.aux)
+\openout1 = `Part_A.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
 LaTeX Font Info:    ... okay on input line 16.
@@ -122,15 +131,15 @@ e
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(56.90552pt, 483.69684pt, 56.90552pt)
-* v-part:(T,H,B)=(34.14331pt, 759.68857pt, 51.21497pt)
+* h-part:(L,W,R)=(28.45276pt, 540.60236pt, 28.45276pt)
+* v-part:(T,H,B)=(22.7622pt, 788.14133pt, 34.14331pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=483.69684pt
-* \textheight=759.68857pt
-* \oddsidemargin=-15.36447pt
-* \evensidemargin=-15.36447pt
-* \topmargin=-75.12668pt
+* \textwidth=540.60236pt
+* \textheight=788.14133pt
+* \oddsidemargin=-43.81723pt
+* \evensidemargin=-43.81723pt
+* \topmargin=-86.50778pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=10.0pt
@@ -156,7 +165,8 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 18.
 [1
 
-{/usr/share/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+{/usr/share/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf-dist
+/fonts/enc/dvips/base/8r.enc}]
 Underfull \hbox (badness 10000) in paragraph at lines 31--45
 
  []
@@ -171,30 +181,33 @@ Underfull \hbox (badness 10000) in paragraph at lines 56--68
 
  []
 
+
+Overfull \hbox (1.56421pt too wide) in paragraph at lines 71--75
+\OT1/ptm/m/n/12 According to a 2016 study on fac-tors that pro-mote re-silience
+ in youth with ADHD simp-toms (Melissa R. Dvorsky).
+ []
+
 [2]
 Underfull \hbox (badness 10000) in paragraph at lines 93--96
 
  []
 
 [3] [4] [5] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15] [16] [17]
-(./output/project_PartA.aux) ) 
+(./output/Part_A.aux) ) 
 Here is how much of TeX's memory you used:
- 1867 strings out of 476025
- 30076 string characters out of 5796501
+ 1932 strings out of 476025
+ 31161 string characters out of 5796501
  1857388 words of memory out of 5000000
- 22345 multiletter control sequences out of 15000+600000
- 517447 words of font info for 49 fonts, out of 8000000 for 9000
+ 22397 multiletter control sequences out of 15000+600000
+ 527803 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,6n,62p,190b,208s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pf
-b></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on ./output/project_PartA.pdf (17 pages, 86682 bytes).
+ 57i,6n,62p,201b,208s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texmf-dist/fonts/type1/urw/times/utmb8a.pfb>
+</usr/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
+Output written on ./output/Part_A.pdf (17 pages, 42429 bytes).
 PDF statistics:
- 84 PDF objects out of 1000 (max. 8388607)
- 54 compressed objects within 1 object stream
+ 70 PDF objects out of 1000 (max. 8388607)
+ 46 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
