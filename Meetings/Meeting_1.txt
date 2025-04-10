@@ -1,0 +1,33 @@
+Agenda: 
+  2. What Parts in A to give to each to cover
+      *section 1 : problem statement
+      *section 2 : Objectives and Operational Requirements
+      *section 3 : Market Analysis
+      *section 4 : Value Chain Design
+
+  1. Role allocation for Part B
+      *Marketing Manager
+      *Production Manager 
+      *Logistics Manager 
+
+Notes:
+  1.Part A limits
+      15 page 
+      excluding: 
+        *Title page
+        *project work declaration
+        *executive summarytable of contents
+        *list of figures
+        *labelled tables at top of table 
+        *labelled figures underneath 
+        *references for in text citations
+        *labelled list of acronyms
+        *reference list
+        *meeting minutes appendix
+      font size: 11 pt 
+      min margin: 1cm
+      spacing 1.0 or 1.5 
+      font Arial, Times New Roman, Calibri
+
+Minutes: 
+
