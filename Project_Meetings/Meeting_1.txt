@@ -1,14 +1,17 @@
 Agenda: 
-  2. What Parts in A to give to each to cover
-      *section 1 : problem statement
+  1. What Parts in A to give to each to cover
+      *section 1 : Problem statement
       *section 2 : Objectives and Operational Requirements
       *section 3 : Market Analysis
       *section 4 : Value Chain Design
 
-  1. Role allocation for Part B
+  2. Role allocation for Part B
       *Marketing Manager
       *Production Manager 
       *Logistics Manager 
+  
+  3. Section 5 - Overall Project Plan
+      *Plan next meeting
 
 Notes:
   1.Part A limits
