@@ -1,0 +1,528 @@
+%\documentclass{article}
+%\begin{document}
+  \huge{\bfseries{PART A}}
+  \large 
+  \section{Problem Identification}
+    \subsection{Problem statement}
+      Attention Deficit Hyperactivity Disorder (ADHD) prevalence is increasing
+      and the sufferers of this condition struggle with everyday school and
+      work due to having difficulties with focus and attention retention.
+
+    \subsection{Key issues}
+      There are many behavioural disorders that affect human comfort and living
+      standards. One of the most common behavioural disorders is 
+      Attention Deficit Hyperactivity Disorder (ADHD). ADHD is characterised by 
+      the decline in focus over periods of time due to low  brain activity
+      prompting the brain to become hyperactive to reach healthy/ activity 
+      levels \cite{timothy}. Sufferers require external stimulation 
+      supplementary to the low stimulus activity to maintain focus.
+      Performing motor activity has been shown as a reliable way
+      to reduce hyperactivity and distractibility in ADHD patients 
+      \cite{azrin}).\\ \\
+      Current testimony indicates that the primary issue is that ADHD sufferers
+      tend to lose attention when presented with information which can have
+      negative effects on school performance as well as workplace relations
+      as distractible workers are regarded as poor performers.
+
+    \subsection{Affected population}
+      ADHD has not shown any bearing on geographical location, gender or
+      ethnicity. ADHD is correlated with age showing that symptoms tend to
+      decrease with increasing age of patients \cite{josephine}. The
+      symptoms are primarily present in groups that are required to stay
+      stationary and give attention to one activity for an extended period
+      of time. \\ \\
+      By this it is concluded that the affected population is children in 
+      school and young adults working white collar jobs.
+
+    \subsection{Short commings of existing solutions}
+      Existing solutions include fidget toys which altough effectiveness is
+      somewhat proven \cite{amanda}. These toys require the use of 1 or 2 
+      hands, which can be a hindrance when considering the use of a sufferer's
+      hands in a classroom or work setting. In the class room a fidget toy
+      taking up a hand can make it difficult for the student to take notes, or
+      a worker to use tools or type on a keyboard. \\ \\
+      Another concern is that of noise, many existing fidget toys can produce
+      noise especially when used vigorously as is common with children.
+      These toys also have a tendency to degrade over time causing the device to
+      produce even more noise. The presence of noise makes these devices
+      impractical for use in a classroom as well as meetings or any other noise
+      sensitive environments where sufferers will be required to focus.
+
+
+    \subsection{Evidence to support the investment decision}
+      According to a 2016 study on factors that promote resilience in youth with
+      ADHD symptoms \cite{melissa}. The single bigest factor is social
+      acceptance. Thus, the priority should be to symptomatically treat ADHD
+      symptoms while minimizing the effect on the surrounding social
+      environment. \\ \\
+      A 2011 study done on the efficacy on fidget toys found that children who
+      suffer from ADHD that were given sensory challenging tasks that were
+      measured on how much of the time spent solving the problem was spent on
+      tasks and how much time was spent doing off-task activities. At the lowest
+      end when the children were told to use a fidget toy they spent 7.9 \% less
+      time doing off-task activities and on the high end time spent doing
+      off-task activities decreased by 52.8\% \cite{amanda}.  \\ \\
+      From this study it can be confidently stated that fidget toys do indeed
+      work. Following this another study done in 2018 shows that the use of
+      alternative seating arrangements in classrooms  \cite{julaila}
+      . The study tested the use of 5 alternative seating arrangements,
+      namely Therapy Balls, Disc 'O' Sit cushions, Therapy Balls with back rest,
+      and Stability balls. All 4 alternative seating methods showed significant
+      increases in the test groups on task behaviours, seated practice as well
+      as well as increased comfort \cite{julaila}. \\ \\
+      from the above discussed studies it is abundantly clear that this is a
+      necessary product to increase the comfort of human living as well as
+      helping the rapidly increasing population of ADHD sufferers \cite{elie}.
+       
+
+    \subsection{Reframing the problem}
+    There is a gap in the market for ADHD fidget devices. Current solutions are
+    either fidget toys or stationary standing desks or therapy balls. Although
+    these devices are proven to be helpful they all have either noise issues,
+    require you to sacrifice the use of one or both hands or is meant to be used
+    stationarily meaning the device cannot be carried around restricting
+    portability making them inadequate for busy school, or young professional
+    life. A product needs to be designed that allows adequate stimulation for
+    ADHD sufferers, while having both hands free that is easily portable between
+    classrooms and boardrooms.
+
+
+
+  \section{Objectives and Operational requirements}
+    \subsection{business system's requirements} 
+      \tikzset{parent/.style={align=center,text width=10cm,fill=green!20,rounded corners=2pt},
+      child/.style={align=center,text width=3.5cm,fill=green!50,rounded corners=6pt},
+      grandchild/.style={fill=pink!50,text width=2.1cm} 
+      }
+      \begin{figure}[H]
+      \begin{forest}
+        for tree={%
+          thick,
+          drop shadow,
+          l sep=0.6cm,
+          s sep=0.8cm,
+          node options={draw,font=\sffamily},
+          edge={semithick,-Latex},
+          where level=0{parent}{},
+          where level=1{
+            minimum height=1cm,
+            child,
+            parent anchor=south west,
+            tier=p,
+            l sep=0.25cm,
+            for descendants={%
+              grandchild,
+              minimum height=0.6cm,
+              anchor=150,
+              edge path={
+                \noexpand\path[\forestoption{edge}]
+                (!to tier=p.parent anchor) |-(.child anchor)\forestoption{edge label};
+              },
+            }
+          }{},
+        }
+        [To Provide comfort and stimulation of ADHD sufferers
+          [Affordability
+            [Affordable\\Materials
+              [Affordable\\Manufac-\\turing\\Process]
+            ]
+          ]     
+          [Portability
+            [Lightweight\\Materials
+              [Compact\\Design
+                [Easily\\Transportable
+                  [Easy\\To\\Setup]
+                ]
+              ]
+            ]
+          ]
+          [Durability
+            [Durable\\Materials
+              [Easily\\Repairable\\Design]
+            ]
+          ]
+          [{Professional\\Design}
+            [Singular\\Professionally\\Acceptable\\Color
+              [Purely\\Functional\\Form factor]
+            ]
+          ]
+        ]
+      \end{forest}
+        \caption{Operational Objectives Outline}
+      \end{figure}
+      %\begin{center}
+      %  \textit{Figure 1 : Operational Objectives Outline} 
+      %\end{center}
+      The above diagram shows an outline of the required objectives for the
+      business to complete and what the main concern for achieving that 
+      objective should be. These points will be discussed further in later
+      parts of this document. \\ \\
+      The Operational drivers that will be required : 
+      \begin{enumerate}
+        \item Pharmacological dealers \\
+          This product will be difficult to sell from general dealers thus the
+          best outlet should sell pharmacological good, examples of this is
+          Clicks and Dischem.
+          The health and distribution of these dealers are
+          necessary to the success of this business. 
+        \item Online dealers \\
+          As the modern online dealerships such as Takealot and Temu rapidly
+          increase in popularity. The health and logistics capabilities of these
+          businesses will drastically aid in the logistics system of the
+          business. Takealot and Temu (Online Dealers) will be approached as
+          po
+        \item Aluminum Suppliers \\ 
+          The best material to fit the laid out objectives for the product
+          frame is aluminum. The health of the aluminum industry is a required
+          operational driver as the production of aluminum would be out of scope
+          to handle for this product's production process.
+        \item Nylon Suppliers \\
+          The best durable material for the sitting air bag as well as the
+          attached carry bag is nylon. Thus the health of the nylon industry is
+          a required operational driver of the products production process.
+        \item Silicone Spray suppliers \\
+          To properly seal the nylon inflatable bag the nylon fabric must
+          be coated with an air impermeable material, This silicone spray is a
+          required operational driver for the production process of this
+          product.
+        \item Spray Paint suppliers \\
+          To achieve the professional form-factor, as well as to increase
+          product durability Paint is required to coat the product. Thus The
+          health of the Spray Paint industry is an operational driver of this
+          product's production process.
+        \item Customer Movement \\
+          One of the product's market opportunities is the ability to be
+          portable. Any global event that will limit the mobility of
+          customers such as a global pandemic or mass shift to working from home
+          will be a threat to the success of the product as this type of
+          situation will reduce the market gap in portable chair attachments.
+        \item ADHD Prevalence \\
+          This system requires that ADHD is a problem that customers experience
+          there is currently no known cure or full proof symptomatic
+          treatment for ADHD but any such medical advances will require a
+          re-evaluation of the system.
+      \end{enumerate} 
+
+    \subsection{required capabilities}
+      \begin{enumerate}
+      \item Material Sourcing \\
+        A required capability of the system is the ability to source adequate
+        materials for the production process of the product. \\  
+        Having proper material sourcing capabilities addresses the operational
+        objectives of \textbf{affordable materials}, 
+        \textbf{lightweight materials} and \textbf{durable materials}. \\
+          The system requires the ability to source Aluminum and textile
+          nylon. Both of these materials are relatively cheap in their respective
+          industries as well as known for being lightweight. The durability of
+          nylon is notorious among textile producers. Aluminum provides adequate
+          durability for this application as it is often used in the production
+          of bicycle frames. The physical properties of these materials addresses
+          \textbf{all material objectives} as well as the \textbf{easily
+          transportable} objective. \\
+        \begin{figure}[H]
+        \begin{forest}
+          for descendants={anchor=east,child anchor=west,grow=east,
+            for descendants={anchor=east, child anchor=west,grow=east,},
+          }, 
+          grow=east,anchor=west,parent anchor=east,
+          for tree={fill=green!20},where={n()<=3}{draw=black}{},
+          where level=1{fill=green!50,}{},
+          where level=2{fill=pink!50,}{},
+          l sep=1cm,
+          s sep=0.8cm,
+          edge={semithick,-Latex},
+          drop shadow,
+          %
+          [{Material Sourcing addresses},
+            [{Affordability},
+              [{Affordable Materials}]
+            ]
+            [{Portability},
+              [{Lightweight Materials},]
+              [{Easily Transportable},]
+            ]
+            [{Durability},
+              [{Durable Materials},]
+            ]  
+          ] 
+        \end{forest}
+          \caption{Material Sourcing addresses}
+      \end{figure}
+        %\begin{center}
+        %  \textit{Figure 2: Material Sourcing addresses}
+        %\end{center}
+        The above diagram show how the material sourcing capability addresses the goals
+          and objectives laid out by the system objectives.
+
+      \item Optimized Production \\
+        This business system requires the capability to effectively produce the
+        necessary components of the product. \\
+        Having a optimized production system will address and aid to achieve the
+        objective of \textbf{affordable manufacturing}\\
+        \begin{figure}[H]
+        \begin{forest}
+          for descendants={anchor=east,child anchor=west,grow=east,
+            for descendants={anchor=east, child anchor=west,grow=east,},
+          }, 
+          grow=east,anchor=west,parent anchor=east,
+          for tree={fill=green!20},where={n()<=3}{draw=black}{},
+          where level=1{fill=green!50,}{},
+          where level=2{fill=pink!50,}{},
+          l sep=1cm,
+          s sep=0.8cm,
+          edge={semithick,-Latex},
+          drop shadow,
+          %
+          [{Optimized Production addresses},
+            [{Affordability},
+              [{Affordable Manufacturing}]
+            ]
+          ] 
+        \end{forest}
+          \caption{Optimized Production addresses}
+        \end{figure}
+        %\begin{center}
+        %  \textit{Figure 3: Optimized Production addresses}
+        %\end{center}
+        The above diagram show how the optimized production capability addresses the goals
+          and objectives layed out by the system objectives.
+      
+      \item Simple and standardized parts and interfaces. \;
+        Designing the product with simple and standardized interfaces with
+        skew-in capabilities\\
+        Having simple and standardized parts and interfaces will be crucial to
+        achieve the objectives of \textbf{easily repairable} and
+        \textbf{affordable manufacturing}. Using skew-in interfaces will aid with
+          the goal \textbf{Durability} due to skew-in interfaces having better
+          force dissipation as as well as skew-in interfaces being cheap to
+          manufacture achieving the objective of 
+          \textbf{affordable manufacturing}. \\
+          By utilizing standard parts with no extra non-essential features aid
+          in the objective of appearing professionally acceptable ny having a
+          \textbf{Purely Functional form factor}. \\
+        \begin{figure}[H] 
+        \begin{forest}
+          for descendants={anchor=east,child anchor=west,grow=east,
+            for descendants={anchor=east, child anchor=west,grow=east,},
+          }, 
+          grow=east,anchor=west,parent anchor=east,
+          for tree={fill=green!20},where={n()<=3}{draw=black}{},
+          where level=1{fill=green!50,}{},
+          where level=2{fill=pink!50,}{},
+          l sep=1cm,
+          s sep=0.8cm,
+          edge={semithick,-Latex},
+          drop shadow,
+          %
+          [{Simple, Standardized parts},
+            [{Affordability},
+              [{Affordable Manufacturing}]
+            ]
+            [{Durability}
+              [{Easily repairable}]
+            ]
+            [{Professional Design}
+              [{Purely Functional Form factor}]
+            ]
+          ]
+        \end{forest}
+        \caption{Simple Standardized parts and interfaces addresses}
+        \end{figure}
+         %\begin{center}
+         %  \textit{Figure 4: Simple Standardized parts and interfaces addresses}
+         %\end{center}
+        The above diagram show how the use of standardized parts capability addresses the goals
+          and objectives layed out by the system objectives.
+      
+      
+      \item Simple interlocking Joints \\
+        The business system requires the production of simple interlocking
+          joints that utilize standardized screw-in interfaces. \\
+          The addition of simple interlocking joints will achieve the objectives
+          of having a \textbf{compact design} as parts can be folded to make the
+          product more compact and more \textbf{easily transportable}. Due to
+          the joints being interlocking it also makes to product \textbf{easy to
+          setup} \\
+        \begin{figure}[H]
+        \begin{forest}
+          for descendants={anchor=east,child anchor=west,grow=east,
+            for descendants={anchor=east, child anchor=west,grow=east,},
+          }, 
+          grow=east,anchor=west,parent anchor=east,
+          for tree={fill=green!20},where={n()<=3}{draw=black}{},
+          where level=1{fill=green!50,}{},
+          where level=2{fill=pink!50,}{},
+          l sep=1cm,
+          s sep=0.8cm,
+          edge={semithick,-Latex},
+          drop shadow,
+          %
+          [{Interlocking Joints addresses},
+            [{Portability},
+              [{compact design}]
+              [{Easily transportable}]
+              [{Easy to setup}]
+            ]
+          ]
+        \end{forest}
+          \caption{Simple Interlocking Joints addresses}
+        \end{figure}
+         %\begin{center}
+         %  \textit{Figure 5: Simple Interlocking Joints addresses}
+         %\end{center}
+        The above diagram show how the use interlocking joints capability addresses the goals
+          and objectives layed out by the system objectives.
+
+      \item Painting \\
+        The project require that the system has capabilities to paint the
+          product professionally appealing colours. As well as to be able to apply
+          an air impermeable silicone coating.\\
+          Being able to paint the device a flat colour will aid to achieve the
+          \textbf{Professional\\Design} goal. \\
+        \begin{figure}[H]
+        \begin{forest}
+          for descendants={anchor=east,child anchor=west,grow=east,
+            for descendants={anchor=east, child anchor=west,grow=east,},
+          }, 
+          grow=east,anchor=west,parent anchor=east,
+          for tree={fill=green!20},where={n()<=3}{draw=black}{},
+          where level=1{fill=green!50,}{},
+          where level=2{fill=pink!50,}{},
+          l sep=1cm,
+          s sep=0.8cm,
+          edge={semithick,-Latex},
+          drop shadow,
+          %
+          [{Painting},
+            [{Professional Design},
+              [{Singular Professionally acceptable colour}]
+            ]
+          ]
+        \end{forest}
+          \caption{Painting addresses}
+        \end{figure}
+        %\begin{center}
+        %   \textit{Figure 6: Painting}
+        %\end{center}
+        The above diagram show how the use Painting capability addresses the goals
+          and objectives layed out by the system objectives.
+      \end{enumerate}
+    \subsection{Physical embodiments for the functions}
+      \begin{enumerate} 
+        \item Material sourcing physical embodiments \\
+          The Material sourcing capability of the system requires the physical
+          embodiments of a reliable logistics system for the transport
+          of raw material to a centralized factory. Thus Transport hardware is
+          required, requiring trucks and drivers. \\
+        \item Optimized Production system physical embodiments \\
+          For an optimized manufacturing process it is required that automation
+          through industrial machinery is maximized while minimizing
+          hand-crafting of parts. For this to be effective the shaping of
+          aluminum parts will have to be done with machinery thus requiring the
+          physical embodiment of a milling machine, drilling machine as well as
+          specialized drill-bits for tapping. There will also be a requirement
+          for mend different parts to one another permanently for this a welding
+          machine is required. Due to the difficulty of welding aluminum a
+          TIG-welder will be required. For the manufacturing to be as
+          cost-effective as possible software should be used instead of a human
+          operator for the TIG-welder. The required software is Miller Welds
+          provided by the company of the same name. \\ For the production of the
+          attached transport bags the required nylon will be transported with
+          the same method as the aluminum. Nylon fabric can be bought as
+          sheets thus only requiring cutting and weaving. For this there will be
+          a requirement for a sewing machine as well as a fabric cutter. To
+          effectively and quickly inflate the internal air bags a relatively
+          small air compressor will be required. 
+        \item Standardized parts and interfaces \\
+          All requirements for standardizing parts will already have been
+          covered in the Optimized Production system section.
+        \item Simple interlocking joints \\
+          The process of creating an interlocking joint requires the use of
+          springs. To self-produce the required spring is unnecessarily
+          expensive thus sourcing spring on their own will be done. This
+          physical embodiment is already provided for by the material sourcing
+          section.
+        \item Painting \\
+          For the painting process only a single black colour will be used. The
+          paint needs to be sourced using the same logistics system as proposed
+          by the material sourcing part of the physical embodiments. To
+          cost-effectively paint large quantities of parts with the same colour
+          will require spray painting tools. These tools consist of both
+          consumable masks for operators as well as the \"spray gun\".
+        \item Silicone coating \\
+          Silicone coating needs to be sourced to be able to seal the internal
+          air-bag, Silicone coating can be applied using a \"Spray gun\" similar
+          to that which is used in the Painting process.
+        \item Air Inflation Valve's  \\
+          To allow the air-bag to be re-pressurised after significant use, a simple
+          Air Inflation valve is required.
+      \end{enumerate}
+    \subsection{Needs of the business system}
+      As outlined by the above-mentioned parts the business system requires many
+      different systems to work together. 
+      \begin{enumerate}
+        \item Measure of Effectiveness (MOE) \\
+          To measure the effectiveness of the system as a whole. The measure of
+          effectiveness needs to directly address the core problem at hand as
+          well as address the success of the business. Therefore the measure of
+          effectiveness should be measured by the percentage increase in
+          observed on task behaviour of individuals using the device versus
+          their baseline on-task behaviour, averaged across all units sold
+          multiplied by number of units sold.
+        \item Measure of Performance (MOP) \\
+          To measure the effectiveness of the subsystems the following measure
+          will be taken.
+          \begin{enumerate}
+            \item \textbf{Average variance from the target material cost. }
+              the lower the variance is, the more reliably the materials can be
+              sourced within the allocated budget. Directly addressing the
+              "Affordable Materials" objective. 
+            \item \textbf{Frequency and fraction of On-time material
+              deliveries.} The higher the frequency and fraction of on-time
+              deliveries directly measures the effectiveness of the logistics
+              system. 
+            \item \textbf{Material quality conformance fraction.} By measuring
+              the fraction of materials that conform to the quality standard
+              required will measure the efficiency and trust of the material
+              sourcing partners.
+            \item \textbf{Paint time and Paint consumption.} By measuring the
+              time and volume paint required to fully paint one unit of the
+              product to minimize both, directly addressing the "Affordability"
+              goal.
+            \item \textbf{Per-Part manufacturing time and material cost.} By
+              measuring the manufacturing time and material cost per part of the
+              device possible bottlenecks could be eliminated as well as
+              individual parts simplified. Also analyzing manufacturing time to
+              simplify and streamline the manufacturing process. Directly
+              addressing the "Affordable manufacturing" objective.
+          \end{enumerate}
+        \item Technical Performance Measure (TPM) \\
+          \begin{enumerate}
+            \item \textbf{Number of assembly steps.} Since the device will have
+              to be frequently transported the number of steps required to
+              assemble the product will directly address the "Standardized parts"
+              and "Simple Interlocking joints" physical embodiments. The TPM
+              will be to have a maximum number of allowed assembly steps.
+            \item \textbf{Folded Dimensions and Weight.} Measuring the folded
+              dimensions as well as the weight of the device with the aim to get
+              the device as small and light as possible. This Directly aids to
+              achieve the "Portable" goal. The TPM will be to have a target
+              weight and dimension that the product has to conform to.
+            \item \textbf{Joint duty-cycle and weight limit.} With the product's goal of 
+              durability, the duty-cycle of the joints as well as their weight
+              limits. The TPM will be to have a target duty-cycle number and a
+              weight limit for each joint.
+            \item \textbf{Paint Adhesion strength.} Due to the goal of
+              professional design, the paint and appearance of the product
+              needs to be maintained over time requiring that the paint does not chip
+              off over time. The TPM will be to have a minimum score achieved on
+              the Standardized paint adhesion test.
+            \item \textbf{Silicone coating sealing quality.} Due to the required
+              internal air-bag for better ADHD stimulation the performance of the
+              air-bag is measured by how well the internal silicone coating seals
+              the bag so that it does not leak air. This is determined by
+              measuring the amount of time it takes for the bag to deflate when
+              under a specified amount of pressure.
+          \end{enumerate}
+      \end{enumerate}
+ %\end{document}

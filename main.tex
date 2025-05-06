@@ -1,0 +1,59 @@
+\documentclass{article}
+\usepackage{subfiles}
+\usepackage{forest}
+\usetikzlibrary{shadows,arrows.meta}
+\usepackage{float}
+\usepackage{colortbl}
+\usepackage{enumitem}
+\usepackage{multirow}
+\usepackage{array}
+\usepackage{minted}
+\usepackage{longtable}
+\usepackage{amsmath}
+\usepackage[
+backend=biber,
+style=authoryear,
+style=numeric,
+sorting=ynt
+]{biblatex}
+\addbibresource{refs.bib}
+%A4 page size = 210mm, 297mm / inset total = size-margin
+\usepackage[a4paper, total={190mm, 277mm}]{geometry}
+\usepackage{fontspec}
+%\setmainfont{TimesNewRoman}
+\title{
+ % BSS310 Project \\
+ % GROUP 101 \\
+}
+\author{
+%Authors:\\Jan-Hendrik Brink,  u23694956
+ %               \\Derich Ben Havenga, u23536812
+  %              \\Mundell Brown, u22637062 
+}
+
+
+\begin{document}
+  %\Huge \maketitle
+  %\huge \makeatletter
+  %\@title 
+  %\makeatother
+  \begin{figure}[H]
+    \includegraphics[width=1\linewidth]{figures/Cover_Page_Part_A.pdf}
+  \end{figure}
+  \listoffigures
+  \listoftables
+  \newpage{}
+\include{JH_Part_A_1.tex}
+\subfile{DB_Part_A_1.tex}
+\subfile{M_Part_A_1.tex}
+\subfile{JH_Part_A_2.tex}
+\include{DB_Part_A_2.tex}
+\subfile{M_Part_A_2.tex}
+\subfile{JH_Part_A_3.tex}
+\subfile{JH_Part_B.tex}
+\subfile{DB_Part_B.tex}
+\subfile{M_Part_B.tex}
+
+\printbibliography
+
+\end{document}
