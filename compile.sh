@@ -1,10 +1,10 @@
 #!/bin/sh
 if [ "$1" = "" ]; then
  lualatex -shell-escape main.tex
-elif [ "$1" = "A2" ]; then 
- lualatex -output-directory=./output -shell-escape JH_Part_A_2.tex
-elif [ "$1" = "A3" ]; then 
- lualatex -output-directory=./output -shell-escape JH_Part_A_3.tex
+elif [ "$1" = "revJ" ]; then 
+ lualatex -shell-escape main_revJ.tex
+elif [ "$1" = "revD" ]; then 
+ lualatex -shell-escape main_revD.tex
 fi
 
 
